@@ -1,5 +1,7 @@
 node {
     
+    tools {nodejs "node"}
+    
     stage('git checkout'){
         echo 'This is checkout stage'
     }
