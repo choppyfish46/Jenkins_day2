@@ -1,6 +1,8 @@
 node {
     
     tools {nodejs "node"}
+    def gradleHome = tool 'node'
+    
     
     stage('git checkout'){
         echo 'This is checkout stage'
